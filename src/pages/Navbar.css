@@ -1,0 +1,57 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background:  rgb(249, 85, 85);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+      font-weight: bold;
+      color: #000;
+      transition: all 0.4s ease;
+    }
+    
+    .navbar .navbar-brand:hover {
+      color: #000000;
+      transition: all 0.4s ease;
+    }
+    
+    .navbar .navbar-brand {
+      color: rgb(255, 255, 255);
+      font-style: italic;
+    }
+    
+    .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 18px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+    
+    .navbar .navbar-nav .nav-item .nav-link.active {
+      background-color: purple;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+  
+    .navbar .navbar-brand img {
+      animation: pulse 1.0s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(0.8);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0.8);
+        opacity: 0.7;
+      }
+    }
+  
